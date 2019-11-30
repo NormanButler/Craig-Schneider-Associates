@@ -26,7 +26,7 @@ Developer @Private
     padding: 2rem 1rem;
     line-height: 1.4rem;
     font-family: 'Raleway', sans-serif;
-    background-image: url(../Images/bg-image.jpg);
+    background-image: url(../Images/sunset-cropped.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -87,12 +87,14 @@ h1 {
   font-size: 1rem;
   text-align: justify;
 }
-.intro .container .intro-content-img img {
- margin-left: 5rem;
-}
+// .intro .container .intro-content-img img {
+//  margin-left: 5rem;
+// }
 
 .intro-content-img img {
-  width: 60%;
+  margin-left: 3rem;
+  width: 80%;
+  border: 1px solid white;
 }
 .services-content h2 {
   color: white;
@@ -121,19 +123,20 @@ footer {
 }
 
 @media screen and (min-width: 499px) {
-.container .intro-content h1 {
+  .container .intro-content h1 {
   font-size: 0.2rem;
-}
-.container .intro-content h2 {
+  }
+  .container .intro-content h2 {
   font-size: 1.5rem;
   color: white;
   
-}
+  }
 
-.container .intro-content p {
+  .container .intro-content p {
   padding: 1rem 0;
   font-size: 1rem;
   color: white;
+  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -189,6 +192,10 @@ footer {
   font-size: 2.5rem;
   text-align: left;
   }
+
+  // .container .services-content {
+  // background-color: slategrey;
+  // }
 
   .container .services-content ul {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
