@@ -12,9 +12,12 @@ Developer @Private
 
 /* Box Model Hack */
 * {
-    -moz-box-sizing: border-box; /* Firexfox */
-    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-    box-sizing: border-box; /* IE */
+  margin: 0;
+  // padding: 0;
+  outline: none;
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
   }
   
   html {
@@ -22,12 +25,12 @@ Developer @Private
   }
 
   body {
-    margin: 0;
     padding: 2rem 1rem;
     line-height: 1.4rem;
     font-family: 'Raleway', sans-serif;
-    background-image: url(../Images/sunset-cropped.jpg);
-    background-repeat: no-repeat;
+    background: url("/Images/sunset-cropped.jpg") no-repeat top center;
+    width: 100%;
+    // height: 100vh;
     background-size: cover;
   }
   img {
@@ -48,12 +51,16 @@ Developer @Private
     color: black;
   }
   .container {
-    display: flex;
+    // display: flex;
     flex-direction: column;
     line-height: 2rem;
     margin: 0 auto;
     width: 95%;
     justify-content: center;
+  }
+
+  nav {
+  display: none;
   }
 
 header {

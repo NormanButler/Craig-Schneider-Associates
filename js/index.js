@@ -1,6 +1,13 @@
-$(function() {
+$(document).ready() 
+
+
 	$('#hamburger').on('click', function() {
 		$('nav').slideToggle();
+	
+// });
+		// $('#hamburger').on('click', function() {
+		// 	$('nav').slideToggle();
+		// }	
 	});
 
 	$(window).on('resize', function() {
@@ -10,4 +17,3 @@ $(function() {
 			$('nav').hide();
 		}
 	});
-});
